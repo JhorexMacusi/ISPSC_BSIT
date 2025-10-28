@@ -4,12 +4,12 @@ BSIT – Ilocos Sur Polytechnic State College (ISPSC)
 
 If you use this project or fork it, please provide proper credit.
 
-# 🎓 ISPSC Student Portfolio Hub
+# ISPSC Student Portfolio Hub
 
 A community-driven portfolio website showcasing **BSIT students** from **Ilocos Sur Polytechnic State College (ISPSC)**.  
 This project helps students learn how to use **GitHub for collaboration** while building a shared digital presence.
 
-🌐 **Live site:** [https://yourusername.github.io/ispsc-student-portfolio](https://yourusername.github.io/ispsc-student-portfolio)
+**Live site:** [https://yourusername.github.io/ispsc-student-portfolio](https://yourusername.github.io/ispsc-student-portfolio)
 
 ---
 
