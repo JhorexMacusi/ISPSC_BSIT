@@ -8,7 +8,7 @@ fetch('students.json')
       card.innerHTML = `
         <img src="${student.photo}" alt="${student.name}">
         <h3>${student.name}</h3>
-        <p>${student.course} - Batch ${student.yearlevel-section}</p>
+        <p>${student.course} - Batch ${student.yearLevelSection}</p>
         <p>${student.bio}</p>
         <a href="${student.github}" target="_blank">GitHub Profile</a>
       `;
