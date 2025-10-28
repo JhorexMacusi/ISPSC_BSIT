@@ -44,4 +44,3 @@ The **ISPSC Student Portfolio Hub** allows every BSIT student to:
      "bio": "Short introduction about yourself.",
      "photo": "images/yourphoto.jpg"
    }
-
