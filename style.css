@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background: #004aad;
+  background: #198754;
   color: white;
   text-align: center;
   padding: 2rem 1rem;
@@ -14,13 +14,13 @@ header {
 
 #portfolio-list {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* ✅ Exactly 5 columns */
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
   padding: 2rem;
 }
 
 .student-card {
-  background: white;
+  background: #800000;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
