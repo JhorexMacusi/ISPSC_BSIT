@@ -32,15 +32,17 @@ The **ISPSC Student Portfolio Hub** allows every BSIT student to:
 ---
 
 ## How to Contribute
+
 1. **Fork** this repository.  
-2. Open the `students.json` file.  
-3. Add your information following this format:
+2. Open the `students.json` file in your fork.  
+3. Add **your own student information** at the **end of the array**, following this format:
    ```json
-  {
-    "name": "Your fullname",
-    "course": "BSIT",
-    "yearLevelSection": "yearlevel-section",
-    "github": "your github profile link",
-    "bio": "your bio",
-    "photo": "images/yourpicture.(jpg,png etc.)"
-  }
+   {
+     "name": "Your Full Name",
+     "course": "BSIT",
+     "yearLevelSection": "4-A",
+     "github": "https://github.com/YourUsername",
+     "bio": "Short description about yourself.",
+     "photo": "images/yourphoto.png"
+   }
+
