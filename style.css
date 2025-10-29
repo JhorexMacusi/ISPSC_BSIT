@@ -8,8 +8,25 @@ body {
 header {
   background: #198754;
   color: white;
-  text-align: center;
-  padding: 2rem 1rem;
+  padding: 1.5rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.header-text h1, .header-text p {
+  margin: 0;
+  text-align: left;
 }
 
 #portfolio-list {
