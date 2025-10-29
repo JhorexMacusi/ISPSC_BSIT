@@ -36,11 +36,11 @@ The **ISPSC Student Portfolio Hub** allows every BSIT student to:
 2. Open the `students.json` file.  
 3. Add your information following this format:
    ```json
-   {
-     "name": "Your Full Name",
-     "course": "BSIT",
-     "batch": "20XX",
-     "github": "https://github.com/yourusername",
-     "bio": "Short introduction about yourself.",
-     "photo": "images/yourphoto.jpg"
-   }
+  {
+    "name": "Your fullname",
+    "course": "BSIT",
+    "yearLevelSection": "yearlevel-section",
+    "github": "your github profile link",
+    "bio": "your bio",
+    "photo": "images/yourpicture.(jpg,png etc.)"
+  }
