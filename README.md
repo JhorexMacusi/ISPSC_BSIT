@@ -9,7 +9,7 @@ If you use this project or fork it, please provide proper credit.
 A community-driven portfolio website showcasing **BSIT students** from **Ilocos Sur Polytechnic State College (ISPSC)**.  
 This project helps students learn how to use **GitHub for collaboration** while building a shared digital presence.
 
-**Live site:** [https://yourusername.github.io/ispsc-student-portfolio](https://yourusername.github.io/ispsc-student-portfolio)
+**Live site:** [https://jhorexmacusi.github.io/ISPSC_BSIT/](https://jhorexmacusi.github.io/ISPSC_BSIT/)
 
 ---
 
@@ -32,15 +32,17 @@ The **ISPSC Student Portfolio Hub** allows every BSIT student to:
 ---
 
 ## How to Contribute
+
 1. **Fork** this repository.  
-2. Open the `students.json` file.  
-3. Add your information following this format:
+2. Open the `students.json` file in your fork.  
+3. Add **your own student information** at the **end of the array**, following this format:
    ```json
    {
      "name": "Your Full Name",
      "course": "BSIT",
-     "batch": "20XX",
-     "github": "https://github.com/yourusername",
-     "bio": "Short introduction about yourself.",
-     "photo": "images/yourphoto.jpg"
+     "yearLevelSection": "4-A",
+     "github": "https://github.com/YourUsername",
+     "bio": "Short description about yourself.",
+     "photo": "images/yourphoto.png"
    }
+
