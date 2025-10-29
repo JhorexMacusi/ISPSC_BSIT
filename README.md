@@ -1,6 +1,6 @@
 ## Author
 Created and maintained by **Jhorex Nelson R. Macusi**  
-BSIT – Ilocos Sur Polytechnic State College (ISPSC)
+BSIT 4-A– Ilocos Sur Polytechnic State College (ISPSC)
 
 If you use this project or fork it, please provide proper credit.
 
@@ -18,7 +18,6 @@ The **ISPSC Student Portfolio Hub** allows every BSIT student to:
 - Create and display their personal portfolio (name, bio, GitHub link, and photo)
 - Learn how to use **forks, branches, and pull requests**
 - Collaborate using real open-source workflows
-- Build a shared showcase of ISPSC IT talent
 
 ---
 
