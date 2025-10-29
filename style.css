@@ -67,3 +67,30 @@ header {
   font-size: 0.9rem;
   color: #666;
 }
+
+@media (max-width: 768px) {
+  #portfolio-list {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  .student-card {
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+
+  .student-card img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0.3rem;
+  }
+
+  .student-card h3 {
+    font-size: 0.8rem;
+  }
+
+  .student-card p {
+    font-size: 0.7rem;
+  }
+}
