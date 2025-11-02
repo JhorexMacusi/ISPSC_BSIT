@@ -67,7 +67,58 @@ header {
   font-size: 0.9rem;
   color: #666;
 }
+.contribute-section {
+  background-color: #f9fafb;
+  padding: 40px 20px;
+  max-width: 850px;
+  margin: 60px auto;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
 
+.contribute-section h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.contribute-section .intro-text {
+  text-align: center;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.contribute-section ol {
+  text-align: left;
+  line-height: 1.8;
+  color: #444;
+  margin: 0 auto 20px auto;
+  max-width: 700px;
+}
+
+.contribute-section .repo-link {
+  text-align: center;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.contribute-section .repo-link a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contribute-section .repo-link a:hover {
+  text-decoration: underline;
+}
+
+.contribute-section .thank-you {
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 600;
+  margin-top: 10px;
+}
 @media (max-width: 768px) {
   #portfolio-list {
     grid-template-columns: repeat(5, 1fr);
