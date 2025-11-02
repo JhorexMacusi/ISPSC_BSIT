@@ -15,3 +15,20 @@ fetch('students.json')
       container.appendChild(card);
     });
   });
+const modal = document.getElementById("contributeModal");
+const btn = document.getElementById("contributeBtn");
+const closeBtn = document.querySelector(".close");
+
+btn.onclick = function () {
+  modal.style.display = "flex";
+};
+
+closeBtn.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target === modal) {
+    modal.style.display = "none";
+  }
+};
