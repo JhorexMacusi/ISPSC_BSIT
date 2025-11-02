@@ -13,33 +13,33 @@
         <h1>ISPSC Student Portfolio Hub</h1>
         <p>BSIT Students of Ilocos Sur Polytechnic State College</p>
       </div>
+      <button id="contributeBtn" class="contribute-btn">How to Contribute</button>
     </div>
   </header>
 
   <main id="portfolio-list"></main>
 
-  <!-- 🔽 Contribution Section -->
-  <section id="contribute" class="contribute-section">
-    <h2>How to Contribute</h2>
-    <p class="intro-text">
-      Want to showcase your portfolio here? Follow these simple steps to contribute via GitHub!
-    </p>
-    <ol>
-      <li><strong>Fork</strong> this repository on GitHub.</li>
-      <li><strong>Clone</strong> your forked repository to your computer.</li>
-      <li>Add your portfolio or project inside the appropriate folder.</li>
-      <li>Commit your changes with a clear message (e.g., <code>Add my portfolio: Jhorex</code>).</li>
-      <li><strong>Push</strong> your changes to your forked repo.</li>
-      <li><strong>Submit a Pull Request</strong> and wait for it to be reviewed.</li>
-    </ol>
-
-    <p class="repo-link">
-      🔗 View the repository here:  
-      <a href="https://github.com/JhorexMacusi/ISPSC_BSIT" target="_blank">github.com/JhorexMacusi/ISPSC_BSIT</a>
-    </p>
-
-    <p class="thank-you">Your contributions help fellow ISPSC BSIT students share their skills and projects!</p>
-  </section>
+  <!-- 🔽 Modal -->
+  <div id="contributeModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>How to Contribute</h2>
+      <ol>
+        <li><strong>Fork</strong> this repository on GitHub.</li>
+        <li><strong>Clone</strong> your forked repository to your computer.</li>
+        <li>Add your portfolio or project inside the appropriate folder.</li>
+        <li>Commit your changes with a clear message (e.g., <code>Add my portfolio: Jhorex</code>).</li>
+        <li><strong>Push</strong> your changes to your forked repo.</li>
+        <li><strong>Submit a Pull Request</strong> and wait for review.</li>
+      </ol>
+      <p>
+        🔗 View the repository here:  
+        <a href="https://github.com/JhorexMacusi/ISPSC_BSIT" target="_blank">
+          github.com/JhorexMacusi/ISPSC_BSIT
+        </a>
+      </p>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
