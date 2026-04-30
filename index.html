@@ -25,12 +25,71 @@
       <span class="close">&times;</span>
       <h2>How to Contribute</h2>
       <ol>
-        <li><strong>Fork</strong> this repository on GitHub.</li>
-        <li><strong>Clone</strong> your forked repository to your computer.</li>
-        <li>Add your portfolio or project inside the appropriate folder.</li>
-        <li>Commit your changes with a clear message (e.g., <code>Add my portfolio: Jhorex</code>).</li>
-        <li><strong>Push</strong> your changes to your forked repo.</li>
-        <li><strong>Submit a Pull Request</strong> and wait for review.</li>
+        <li>
+          <strong>Fork</strong> this repository on 
+          <a href="https://github.com/JhorexMacusi/ISPSC_BSIT" target="_blank">GitHub</a>.
+        </li>
+      
+        <li>
+          <strong>Open your terminal</strong> (Command Prompt, PowerShell, or VS Code Terminal), then clone your forked repository:
+          <pre><code>git clone https://github.com/YOUR-USERNAME/ISPSC_BSIT.git</code></pre>
+        </li>
+      
+        <li>
+          After cloning, <strong>locate the folder</strong> named <code>ISPSC_BSIT</code> on your computer and <strong>open it</strong>.
+          <br>
+          You can also open it using your terminal:
+          <pre><code>cd ISPSC_BSIT</code></pre>
+        </li>
+      
+        <li>
+          (Recommended) Open the project folder in <strong>VS Code</strong> for easier editing:
+          <pre><code>code .</code></pre>
+        </li>
+      
+        <li>
+          Go to <code>student.json</code> and add your information using this format:
+          <pre><code>{
+        "name": "Your Full Name",
+        "course": "BSIT",
+        "yearLevelSection": "Your Year & Section",
+        "github": "https://github.com/YOUR-USERNAME",
+        "bio": "Short description about yourself",
+        "photo": "images/your-image.jpg"
+      }</code></pre>
+      
+          <p>⚠️ Make sure to keep valid JSON format and do not delete existing entries.</p>
+        </li>
+      
+        <li>
+          Add your image inside the <code>images</code> folder.
+        </li>
+      
+        <li>
+          In the terminal (inside the project folder), stage your changes:
+          <pre><code>git add .</code></pre>
+        </li>
+      
+        <li>
+          Commit your changes:
+          <pre><code>git commit -m "Add portfolio: Your Name"</code></pre>
+        </li>
+      
+        <li>
+          Push your changes:
+          <pre><code>git push origin main</code></pre>
+        </li>
+      
+        <li>
+          Go back to GitHub and submit a <strong>Pull Request</strong> for review.
+        </li>
+      
+        <li>
+          For a more detailed guide, visit:
+          <a href="https://www.w3schools.com/git/git_remote_fork.asp?remote=github" target="_blank">
+            W3Schools Git Fork Tutorial
+          </a>
+        </li>
       </ol>
       <p>
         View the repository here:  
